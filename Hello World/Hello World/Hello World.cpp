@@ -1,15 +1,27 @@
 //my first program in C++
+
+// Always include the precompiled header first
 #include "stdafx.h"
+
+// Then, if this is a class implementation (SomeClass.cpp), include the appropriate header
+// #include "SomeClass.h"
+
+// Then include C++ library stuff like this
 #include <iostream>
 
+// Finally, include project files that we are referencing in this file
 #include "SdlManager.h"
 
+// Avoid polluting the namespace, don't use 'using'!!
+//using namespace std;
+
+
+// Main function, recognized by SDL to be the application entry point
 int main(int argc, char* args[])
 {
+  // rsltnr - here is some sdl stuff i commented out for the time being
 //   SdlManager sdlManager;
 //   sdlManager.Init();
-
-//   // Wait two seconds
 //   SDL_Delay(2000);
 
   // Print some cool text
