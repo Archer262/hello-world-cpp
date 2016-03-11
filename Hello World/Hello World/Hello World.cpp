@@ -1,5 +1,5 @@
 //my first program in C++
-#include <stdafx.h>
+#include "stdafx.h"
 #include <iostream>
 
 int main()
