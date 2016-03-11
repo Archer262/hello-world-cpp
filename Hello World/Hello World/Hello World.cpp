@@ -3,6 +3,9 @@
 // Always include the precompiled header first
 #include "stdafx.h"
 
+// Then, if this is a class implementation (SomeClass.cpp), include the appropriate header
+// #include "SomeClass.h"
+
 // Then include C++ library stuff like this
 #include <iostream>
 
