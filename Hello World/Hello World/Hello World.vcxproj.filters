@@ -27,6 +27,9 @@
     <ClInclude Include="SdlManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SdlManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SUT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
